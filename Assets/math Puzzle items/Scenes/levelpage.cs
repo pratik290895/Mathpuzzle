@@ -21,7 +21,7 @@ public class levelpage : MonoBehaviour
         }
         if (!PlayerPrefs.HasKey("level"))
         {
-            print("if call");
+            //print("if call");
             level = 1;
             PlayerPrefs.SetInt("level", level);
         }
