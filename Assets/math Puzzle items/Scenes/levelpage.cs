@@ -18,7 +18,7 @@ public class levelpage : MonoBehaviour
             {
                 clickButton(number + 1);
             });
-        }
+        } 
         if (!PlayerPrefs.HasKey("level"))
         {
             //print("if call");

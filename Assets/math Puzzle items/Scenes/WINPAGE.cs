@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class WINPAGE : MonoBehaviour
 {
     public GameObject Play, Win, Home;
-    public  Text Next;
+    public  Text Text;
    
     
     
@@ -24,7 +24,7 @@ public class WINPAGE : MonoBehaviour
     }
     private void OnEnable()
     {
-        Next.text = "PUZZLE " + gameplay.instance.level + " COMPLETED";
+        Text.text = "PUZZLE " + gameplay.instance.level + " COMPLETED";
 
     }
 }
